@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaderboard – SDG 13</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="leaderboard">
+
+    <nav class="navbar">
+        <div class="logo">SDG 13</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-title">Leaderboard</h1>
+        <p class="hero-subtitle">Top climate heroes</p>
+    </header>
+
+    <section class="section">
+
+        <div class="leaderboard-wrapper">
+
+            <form id="leader-form" class="leader-form">
+                <label>Name:<br><input type="text" id="leader-name"></label><br><br>
+                <label>Score:<br><input type="number" id="leader-score" readonly></label><br><br>
+                <button type="submit" class="btn-secondary">Save Score</button>
+            </form>
+
+            <div class="leaderboard-list">
+                <h3>Top Scores</h3>
+                <ol id="leaderboard-list"></ol>
+                <button id="clear-leaderboard" class="btn-primary" style="margin-top:1rem;">Clear Leaderboard</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>Made for SDG 13 – Climate Action</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

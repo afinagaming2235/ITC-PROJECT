@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Climate Quiz – SDG 13</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="quiz">
+
+    <nav class="navbar">
+        <div class="logo">SDG 13</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-title">Climate Quiz</h1>
+    </header>
+
+    <section class="section">
+
+        <form id="quiz-form" class="quiz-form">
+
+            <div class="quiz-question">
+                <p>1. What does SDG 13 focus on?</p>
+                <label><input type="radio" name="q1" value="a">Clean water</label><br>
+                <label><input type="radio" name="q1" value="b">Climate action</label><br>
+                <label><input type="radio" name="q1" value="c">Education</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>2. Which gas contributes most to global warming?</p>
+                <label><input type="radio" name="q2" value="a">Oxygen</label><br>
+                <label><input type="radio" name="q2" value="b">Carbon dioxide</label><br>
+                <label><input type="radio" name="q2" value="c">Helium</label>
+            </div>
+
+            <div class="quiz-question">
+                <p>3. Which action helps reduce carbon footprint?</p>
+                <label><input type="radio" name="q3" value="a">Leaving lights on</label><br>
+                <label><input type="radio" name="q3" value="b">Using public transportation</label><br>
+                <label><input type="radio" name="q3" value="c">Burning trash</label>
+            </div>
+
+            <button type="submit" class="btn-secondary">Submit Quiz</button>
+        </form>
+
+        <div id="quiz-result" style="margin-top: 1rem; text-align:center; font-weight: bold;"></div>
+
+    </section>
+
+    <footer class="footer">
+        <p>Made for SDG 13 – Climate Action</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
